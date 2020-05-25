@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Boxfuse Sample App: success!</title>
+    <title>Boxfuse</title>
 </head>
 <body style="text-align: center">
 <h1>Congratulations!</h1>
@@ -19,7 +19,7 @@
 <% if("virtualbox".equals(System.getenv("BOXFUSE_PLATFORM_ID"))) { %>
 <h2 style="margin-top: 80px">Next steps</h2>
 
-<p style="margin-bottom: 20px;">
+<p style="margin-bottom: 80px;">
     Display the Instance console:<br/>
     <strong>boxfuse logs <%= System.getenv("BOXFUSE_INSTANCE_ID") %>
     </strong>
